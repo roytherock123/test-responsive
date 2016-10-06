@@ -1,0 +1,26 @@
+{
+  "name": "test-responsive",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roytherock123/test-responsive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roytherock123/test-responsive/issues"
+  },
+  "homepage": "https://github.com/roytherock123/test-responsive#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "gulp": "^3.9.1",
+    "gulp-jslint": "^1.0.5",
+    "gulp-pug": "^3.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
