@@ -5,15 +5,35 @@ html(lang="en")
         title Responsive Web Design Agency | Cyber-Duck
         meta(name="viewport" content="width=device-width, initial-scale=1")
         meta(name="format-detection" content="telephone=no")
-    body
+        link(href="css/style.css", rel="stylesheet")
+    body.ServicePage
         .wrap
             header
-                img(src="../images/cyber-duck-logo-amin.gif", alt="logo")
                 div
-                    ul
-                        each val in ["approach","work","services", "more"]
-                            li
-                                a(href="#")= val
+                    .brand(itemscope itemtype="http://schema.org/Organization")
+                        a(href="https://www.cyber-duck.co.uk/" accesskey="1" itemprop="url") Cyber-Duck Ltd
+                nav.nav
+                    a.btn-skip(href="#content" title="Skip to content" accesskey="s") Skip navigation
+                    a(href="/approach/" class="top-btn-approach") approach
+                    a(href="/work/" class="top-btn-work" accesskey="4") work
+                    a(href="/services/" class="top-btn-services" accesskey="3") services
+                    a(href="/who-we-are/" class="top-btn-who-we-are" accesskey="2") Who we are
+                    a(href="#menu" class="btn-menu")
+                        span.menu-open
+                            span.txt-menu Menu
+                            span.txt-more More
+                            i
+                        span.menu-close Close
+                            i
+                    a(href="#" target="_blank").btn-location Location
+                    ul.nav-locations
+                        li
+                            a(href="https://goo.gl/maps/fKNDU" target="_blank") Elstree
+                        li
+                            a(href="https://goo.gl/maps/tC2Er" target="_blank") Farringdon
+                    a.btn-call(href="tel:+8438502957")
+                    a.btn-discuss(href="https://www.cyber-duck.co.uk/contact-us/" accesskey="5")
+                        strong Contact us
             div
                 p
                     a(href="#") Cyber-Duck
@@ -36,7 +56,8 @@ html(lang="en")
             div
                 h3 HIGH PERFORMANCE TECHNOLOGIES
                 High performance is critical on mobile. Website speed and size has a massive impact on abandonment and conversion rates: over half of smartphone users expect websites to load in under four seconds. Since 2005, our development experts have created fast, flexible websites that perform consistently across devices. Specialising in the latest HTML5 and CSS3 technologies, the team is well versed in popular responsive frameworks like Bootstrap. We’ve even developed Hoisin: our own lightweight, customisable framework, which underpins our best responsive projects.  
-            img(src="../images/mobilegeddon.jpg", alt="")
+            div
+
                 
 
 

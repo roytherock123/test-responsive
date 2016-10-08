@@ -1,2 +1,74 @@
-body {
-  background: red; }
+@media (max-width: 1023px) and (min-width: 120px) {
+  .top-btn-approach, .top-btn-work, .top-btn-services, .top-btn-who-we-are {
+    display: none;
+    float: left;
+    height: 56px;
+    padding: 5px 10px;
+    line-height: 56px;
+    text-transform: lowercase;
+    color: black;
+    text-decoration: none; }
+  .btn-call {
+    display: none; } }
+
+@media (min-width: 360px) {
+  .top-btn-approach {
+    display: block; } }
+
+@media (min-width: 410px) {
+  .top-btn-work {
+    display: block; } }
+
+@media (min-width: 490px) {
+  .top-btn-services {
+    display: block; } }
+
+@media (min-width: 620px) {
+  .top-btn-who-we-are {
+    display: block; } }
+
+@media (min-width: 720px) {
+  .top-btn-approach {
+    display: none; }
+  .top-btn-work {
+    display: none; }
+  .top-btn-services {
+    display: none; }
+  .top-btn-who-we-are {
+    display: none; } }
+
+@media (min-width: 768px) {
+  .top-btn-approach {
+    display: block; } }
+
+@media (min-width: 810px) {
+  .top-btn-work {
+    display: block; } }
+
+@media (min-width: 890px) {
+  .top-btn-services {
+    display: block; } }
+
+@media (min-width: 990px) {
+  .top-btn-who-we-are {
+    display: block; } }
+
+@media (min-width: 1024px) {
+  .top-btn-approach, .top-btn-work, .top-btn-services, .top-btn-who-we-are {
+    display: none; } }
+
+.brand a {
+  display: block;
+  line-height: 300px;
+  text-indent: 400px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-position: left top;
+  background-image: url(../../images/cyber-duck-logo-amin.gif);
+  width: 299px;
+  height: 24px; }
+
+.btn-skip {
+  position: absolute;
+  top: -500px; }
