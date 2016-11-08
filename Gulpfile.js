@@ -16,7 +16,7 @@ gulp.task('styles', function(){
 gulp.task('pug', function(){
     gulp.src('src/pug/**/*.pug')
         .pipe(pug())
-        .pipe(gulp.dest('src/html/'))
+        .pipe(gulp.dest('src'))
         .pipe(browserSync.reload({
             stream: true
         }))
@@ -26,7 +26,7 @@ gulp.task('browserSync', function(){
     browserSync.init({
         open:false,
         server: {
-            baseDir: 'src/html',
+            baseDir: 'src',
         },
     })
 });

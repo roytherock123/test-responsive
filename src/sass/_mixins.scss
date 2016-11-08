@@ -1,0 +1,12 @@
+
+
+@mixin box-sizing($type: border-box){
+    @include prefixer(box-sizing,$type, moz webkit);
+}
+
+@mixin prefixer($property,$value,$prefixes: webkit moz ms o){
+    @each $prefix in $prefixes {
+        #{'-' + $prefix + '-' + $property}: #{$value};
+    }
+    #{$property}: #{$value}
+}

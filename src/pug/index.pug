@@ -5,8 +5,38 @@ html(lang="en")
         title Responsive Web Design Agency | Cyber-Duck
         meta(name="viewport" content="width=device-width, initial-scale=1")
         meta(name="format-detection" content="telephone=no")
+        link(rel="stylesheet", href="/css/style.css")
     body
         .ServicePage
             .wrap
-                header.head#top
+                header.head#top logo
+                    nav menu
+                div(itemscope, itemtype="http://schema.org/Service")
+                    section.content#content
+                        .page-big-title
+                            .big-title
+                                .box-big-title
+                                    p.breadcumbs
+                                        a(href="/") Cyber-Duck
+                                        a(href="/") Services
+                                    h1(itemprop = "name") Responsive Web Design
+                                    p.subtitle The powerful approach to designing and building mobile friendly websites
+                                    p.title-ctas
+                                        br
+                                        a(href="/contact-us/").btn.btn-explore <i></i>Talk to us
+                                .big-title-img
+                                .clear
+                            .clear 
+                    section.content
+                        .block-in
+                            .box-grey.box-w-img
+                                .box-w-img-cont
+                                    .box(itemprop="description")
+                                        p Responsive web design is a powerful way to create mobile-friendly websites. Our experts can help you raise user engagement and retention, with a website that can scale seamlessly across devices: resizing structure and content automatically. 
+                                .box-img
+                                    .mid-cont(itemprop="image")
+                                        img(src="images/Serv-anim-ux.gif", alt="")
+                                .clear
+
+
     
