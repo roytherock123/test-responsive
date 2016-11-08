@@ -12,22 +12,17 @@ html(lang="en")
                 header.head#top logo
                     nav menu
                 div(itemscope, itemtype="http://schema.org/Service")
-                    section.content#content
-                        .page-big-title
-                            .big-title
-                                .box-big-title
-                                    p.breadcumbs
-                                        a(href="/") Cyber-Duck
-                                        a(href="/") Services
-                                    h1(itemprop = "name") Responsive Web Design
-                                    p.subtitle The powerful approach to designing and building mobile friendly websites
-                                    p.title-ctas
-                                        br
-                                        a(href="/contact-us/").btn.btn-explore <i></i>Talk to us
-                                .big-title-img
-                                .clear
-                            .clear 
-                    section.content
+                    section.content.content--blue
+                        p.breadcumbs
+                            a.breadcumbs__item(href="/") Cyber-Duck
+                            a.breadcumbs__item(href="/") Services
+                        h1.big-title(itemprop = "name") Responsive Web Design
+                        p.subtitle The powerful approach to designing and building mobile friendly websites
+                        a.talk-to-us(href="/contact-us/") 
+                            i.btn.btn-explore 
+                            | Talk to us
+                    section.image: img(src="images/rwd-featured-image.jpg") 
+                    section.content.content
                         .block-in
                             .box-grey.box-w-img
                                 .box-w-img-cont

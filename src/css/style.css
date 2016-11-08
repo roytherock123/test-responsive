@@ -1,3 +1,50 @@
+* {
+  font-family: "Gotham A", "Gotham B", "Gotham", "Century Gothic", sans-serif; }
+
 @media (min-width: 720px) {
   .big-title-img {
     background-image: url("/images/rwd-featured-image.jpg"); } }
+
+.content--blue {
+  color: white;
+  background-color: #2C89BE;
+  padding: 40px 20px;
+  font-size: 15px; }
+  .content--blue .breadcumbs__item {
+    color: white; }
+  .content--blue .breadcumbs__item::after {
+    content: " / "; }
+  .content--blue .big-title {
+    font-size: 36px; }
+  .content--blue .subtitle {
+    font-family: "Mercury Text G1 A", "Mercury Text G1 B", "Mercury Text", "Georgia", serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.3em; }
+
+.image {
+  float: right; }
+
+.talk-to-us {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  background: white;
+  padding-right: 10px; }
+
+i.btn {
+  display: block;
+  width: 40px;
+  height: 40px;
+  float: left; }
+
+.btn-explore {
+  background-image: url("/images/sprite@2x.png");
+  background-color: #e96631;
+  background-position: -163px -40px;
+  background-repeat: no-repeat;
+  background-size: 220px 440px;
+  margin-right: 10px; }
