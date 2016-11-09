@@ -1,4 +1,3 @@
-
 * {
   font-family: "Gotham A", "Gotham B", "Gotham", "Century Gothic", sans-serif; }
 
@@ -6,11 +5,18 @@
   .big-title-img {
     background-image: url("/images/rwd-featured-image.jpg"); } }
 
+.content--wrapping {
+  position: relative; }
+
 .content--blue {
   color: white;
   background-color: #2C89BE;
   padding: 40px 20px;
-  font-size: 15px; }
+  font-size: 15px;
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  border-right: 15px solid white; }
   .content--blue .breadcumbs__item {
     color: white; }
   .content--blue .breadcumbs__item::after {
@@ -23,8 +29,22 @@
     font-weight: 400;
     font-size: 1.3em; }
 
-.image {
-  float: right; }
+.content--image {
+  float: right;
+  background-image: url(/images/rwd-featured-image.jpg);
+  border-left: 15px solid white;
+  background-position: 50%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  background-repeat: no-repeat;
+  box-sizing: border-box; }
+
+.clear {
+  clear: both; }
 
 .talk-to-us {
   display: inline-block;
